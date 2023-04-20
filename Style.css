@@ -1,110 +1,39 @@
-*{
-    font-family: Arial;
-    
-}
-body{
-    width: 965px;
-    margin: auto;
-    background-color: white;
-    background-image: url("C:/Users/tomas/Documents/FP/imatges/bg.gif")
-}
-#contenedor{
-    background-color: white;
-    border-radius: 25px;
-    margin-top: 10px;
-
-}
-/*-----------------------------------------------------------------------*/
-#cabecera{
-   position: relative;
-   
-}
-#cabecera img{
-    position: relative;
-    left: 10px;
-    top: 10px;
-}
-/*MENU*/
-.menu_superior{
-    position: relative;
-    left: 578px;
-    bottom: 60px;
-}
-.menu_superior_lista{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.menu_superior_lista li{
-    display: inline-block;
-    padding: 15px;
-}
-.menu_superior_lista li a{
-    color: black;
-    text-decoration: none;
-    
-}
-.menu_superior_lista .menu_superior_lista_Rojo{
-    background-color: brown;
-}
-/*-------------------------------------------------------------------------*/
-#contenido{
-    position: relative;
+header{
     margin: 0;
     border: 0;
 }
-.titulo{
+#titulo_principal .tiulo_principal .titulo{
     text-align: center;
+    background-color: gray;
 }
-#cajas{
-    text-align: center;
+/*-------------------------------------------------*/
+.imagen{
+    width: 722px;
+    height: 480px;
+    margin: auto;
+    background-image: url("../../imatges/panteon-1.jpg")
 }
-.box{
-    display: inline-block;
-    margin-right: 10px;
-    width: 30%;
-}
-.box h2{
-    text-align: left;
-    color: brown;
-    padding-bottom: 15px;
-}
-.box p{
-    text-align:justify;
-    padding-right: 22px ;
-
-}
-.box img{
+.box1{
     float: left;
+    width: 60px;
+    height: 175px;
+    margin-top: 200px;
+    margin-left: 185px;
+    overflow: scroll;
 }
-/*-------------------------------------------------------------------------*/
-#pie_pagina{
-    position: relative;
-    margin-top: 60px;
+.box2{
+    float: left;
+    width: 60px;
+    margin-top: 200px;
+    height: 175px;
+    margin-left: 85px;
+    overflow: scroll;
 }
-/*-------------------------------------------------------------------------*/
-.menu_inferior{
-    position: relative;
-    left: 578px;
-    bottom: 35px;
-}
-.menu_inferior_lista{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.menu_inferior_lista li{
-    display: inline-block;
-    padding: 15px;
-}
-.menu_inferior_lista li a{
-    color: black;
-    text-decoration: none;
-    
-}
-.menu_inferior_lista .menu_inferior_lista_Rojo{
-    background-color: brown;
-}
-.firma h3{
-    margin-left: 25px;
+.box3{
+    float: left;
+    width: 60px;
+    height: 175px;
+    margin-left: 80px;
+    margin-top: 200px;
+    overflow: scroll;
 }
