@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Fri Apr 21 10:30:56 CEST 2023 -->
+
+<curso xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchameLocation="XSDcurso.xsd">
+
+<titulo>Introduccion a XML
+</titulo>
+
+
+<unidad titulo="XML">
+
+<lecciones>
+
+<leccion titulo="Introduccion">Contenido...</leccion>
+
+
+<leccion titulo="Documento bien formado">Contenido...</leccion>
+
+
+
+<leccion titulo="Ejemplos de uso">Contenido...</leccion>
+
+</lecciones>
+
+</unidad>
+
+</curso>
+ 

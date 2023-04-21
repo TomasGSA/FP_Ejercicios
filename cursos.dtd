@@ -1,0 +1,14 @@
+<!-- DTD created at Fri Apr 21 10:34:17 CEST 2023 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT  curso (titulo,unidad+)>
+
+<!ELEMENT titulo (#PCDATA)>
+
+<!ELEMENT unidad (lecciones)>
+<!ATTLIST unidad titulo CDATA #REQUIRED>
+
+<!ELEMENT lecciones (leccion+)>
+
+<!ELEMENT leccion (#PCDATA)>
+<!ATTLIST leccion titulo CDATA #REQUIRED>
+
